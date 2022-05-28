@@ -1,0 +1,20 @@
+@charset "UTF-8"
+
+/* ヘッダー */
+
+.header_inner {
+    max-width: 1500px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header_inner_name {
+    font-size: 0.875rem;
+}
+.header_inner span {
+    color: #8b4513;
+}
