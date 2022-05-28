@@ -18,3 +18,15 @@
 .header_inner span {
     color: #8b4513;
 }
+
+.header_nav {
+    margin-left: auto;
+    display: flex;
+    flex: none;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.nav_item {
+    
+}
