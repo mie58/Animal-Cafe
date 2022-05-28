@@ -2,6 +2,14 @@
 
 /* ヘッダー */
 
+header {
+    
+}
+
+body {
+    background-color: #dcdcdc;
+}
+
 .header_inner {
     max-width: 1500px;
     width: 90%;
@@ -10,10 +18,15 @@
     justify-content: flex-start;
     margin: 0 auto;
     align-items: center;
+    box-shadow: 0px 10px 10px -5px rgba(135, 135, 135, 0.3);
 }
 
 .header_inner_name {
-    font-size: 0.875rem;
+    width: auto;
+    display: flex;
+    flex: none;
+    align-items: center;
+    font-size: 23px;
 }
 .header_inner span {
     color: #8b4513;
@@ -24,9 +37,9 @@
     display: flex;
     flex: none;
     align-items: center;
-    vertical-align: middle;
+    font-size: 23px;
 }
 
-.nav_item {
-    
+.nav-item a {
+    margin-left: 60px;
 }
