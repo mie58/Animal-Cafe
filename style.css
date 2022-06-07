@@ -105,3 +105,16 @@ body {
 .news_item {
     margin: auto;
 }
+
+/**メニュー**/
+
+.menu_list {
+    margin-left: 175px;
+}
+
+.menu_item {
+    display: inline-block;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+}
