@@ -1,10 +1,7 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
-/* ヘッダー */
-
-.header {
-    
-}
+/** ヘッダー **/
+.header {}
 
 .header_inner {
     width: 90%;
@@ -15,10 +12,7 @@
     align-items: center;
     }
 
-*{
-    margin:0;
-    padding:0;
- }
+
 
 .header_inner_name {
     width: auto;
@@ -64,7 +58,7 @@ body {
 }
 
 
-/***トップイメージ***/
+/**トップイメージ**/
 
 .top_imgs {
     margin-top: 1.5em;
@@ -157,11 +151,13 @@ body {
 .add_1{
     text-align: center;
     margin-top: 1.5em;
+    list-style: none;
 }
 
 .add_1 img {
     width: 30px;
     height: 30px;
+    list-style: none;
 }
 
 .add_2 {
@@ -170,6 +166,7 @@ body {
     margin-top: 0.8em;
     margin-bottom: 1.5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
 }
 /**コンタクト**/
 
