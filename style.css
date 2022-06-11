@@ -26,7 +26,9 @@
     flex: none;
     align-items: center;
     font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .header_inner span {
     color: #8b4513;
 }
@@ -37,6 +39,7 @@
     flex: none;
     align-items: center;
     font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-item a {
@@ -59,8 +62,9 @@ body {
 /***トップイメージ***/
 
 .top_imgs {
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-bottom: 1em;
+
 }
 
 .top-img img {
@@ -70,9 +74,16 @@ body {
     display: flex;
 }
 
+.content_header {
+    margin-bottom: 1em;
+}
+
 .content_header_item {
     text-align:center;
     font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 /**ニュース**/
@@ -109,38 +120,100 @@ body {
 /**メニュー**/
 
 .menu_list {
-    margin-left: 175px;
-}
-
-/**保留**/
-.menu_item img {
-
+    display: flex;
+    list-style: none;
+    justify-content:center;
 }
 
 .menu_item {
-    display: inline-block;
-    text-align: center;
     text-decoration: none;
-    font-size: 28px;
-    margin-top: 30px;
+    text-align: center;
+
+    }
+
+.menu_item img {
+    margin: 3em 5em 2em 5em;
+
 }
 
-.menu_item a {
-    color: black;
-    text-decoration: none;
+.menu-link {
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 /**マップ**/
-
-.address {
-    display: flex;
+.position {
+    margin-top: 1.5em;
+    text-align: center;
 }
 
-.p1 {
+.add_1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1.5em;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.add_2 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0.8em;
+    margin-bottom: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/**コンタクト**/
+
+.phone_number {
+    display: flex;
+    list-style: none;
+    margin-top: 6em;
+    justify-content:center;
+
+}
+
+.phone_1 {
+    font-size: 30px;
+    font-weight: bold;
     
 }
 
-.position {
-    margin-top: 1.5em;
-    margin-left: 35em;
+.phone_2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0.5em 1em 0.5em 1em;
+
+}
+
+.mail_address {
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    margin-top: 0.5em;
+    margin-bottom: 6em;
+}
+
+.mail_1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mail_2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+
+.fotter_style {
+    display: flex;
+    background-color: #eeeeee;
+    height: 5em;
+}
+
+.fotter_n {
+    margin: auto;
 }
