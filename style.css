@@ -33,6 +33,11 @@
     color: #8b4513;
 }
 
+.header_inner span img {
+    height: 0.7em;
+    margin: auto;
+}
+
 .header_nav {
     margin-left: auto;
     display: flex;
